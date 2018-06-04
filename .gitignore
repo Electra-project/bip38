@@ -1,0 +1,9 @@
+*.dll
+*.dylib
+*.exe
+*.exe~
+*.so
+*.test
+
+/bip38
+/bip38.exe
