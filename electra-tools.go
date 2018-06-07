@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/Electra-project/bip38/src/wif"
+	"github.com/Electra-project/electra-tools/src/wif"
 )
 
 func main() {
