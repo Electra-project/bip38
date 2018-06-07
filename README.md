@@ -1,3 +1,3 @@
-# bip38
+# Electra Tools
 
-BIP 38 Passphrase-protected private key Go implementation.
+Go implementation of Electra blockchain commonly used libraries.
