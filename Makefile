@@ -1,4 +1,4 @@
-NAME = bip38
+NAME = electra-tools
 VERSION? = ?
 
 GITHUB_USERNAME = Electra-project
