@@ -1,3 +1,5 @@
+/build
+
 *.dll
 *.dylib
 *.exe
