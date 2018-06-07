@@ -1,0 +1,12 @@
+{
+	"ImportPath": "github.com/Electra-project/electra-tools",
+	"GoVersion": "go1.10",
+	"GodepVersion": "v79",
+	"Deps": [
+		{
+			"ImportPath": "github.com/btcsuite/btcutil/base58",
+			"Comment": "BTCUTIL_0_5_0-71-gd4cc87b",
+			"Rev": "d4cc87b860166d00d6b5b9e0d3b3d71d6088d4d4"
+		}
+	]
+}
