@@ -10,6 +10,5 @@ func hashSha332(passphrase []byte) []byte {
 	h := sha3.New256()
 	h.Write(passphrase)
 
-	// Set time to 1 in order to use the maximum available memory
 	return h.Sum(nil)
 }
