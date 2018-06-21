@@ -13,4 +13,4 @@ start:
 	go build && "./${BINARY_NAME}"
 
 test:
-	go test -v ./...
+	ginkgo -r --randomizeAllSpecs --randomizeSuites
