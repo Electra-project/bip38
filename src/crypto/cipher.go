@@ -9,7 +9,7 @@ import (
 )
 
 // Cipher a text with a key using AES-256 into an hexadecimal string.
-func cipherA256S332(text string, key []byte) (string, error) {
+func cipherAES256(text string, key []byte) (string, error) {
 	block, e := aes.NewCipher(key)
 	if e != nil {
 		return "", e
@@ -29,7 +29,7 @@ func cipherA256S332(text string, key []byte) (string, error) {
 }
 
 // Decipher an array of bytes with a key using AES-256.
-func decipherA256S332(byteInput []byte, key []byte) (string, error) {
+func decipherAES256(byteInput []byte, key []byte) (string, error) {
 	block, e := aes.NewCipher(key)
 	if e != nil {
 		return "", e
